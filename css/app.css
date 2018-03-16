@@ -1,0 +1,145 @@
+body {
+    height: 100vh;
+    background: url(/Users/ivan/Desktop/taxi_html/asphalt.jpg);
+    background-size: 100%;
+}
+
+.main-container {
+    width: 900px;
+    margin: 0 auto;
+    border: 4px solid #151413;
+    box-shadow: 0px 0px 2px #f2f3d273, 0 0 1em 0px #7b74325e;
+    padding-bottom: 5%;
+    background: #201e1df7;
+}
+
+.own-colomn {
+	display: inline-block;
+	/*overflow: hidden;*/
+}
+.row-container-box {
+    /*overflow: hidden;*/
+    background: #000000d9;
+    /*height: 150px;*/
+    width: 900px;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    box-shadow: 0 0 60px rgba(255, 236, 7, 0.3);
+}
+
+.header-buttons-block a {
+	color: white;
+	padding: 20px;
+	margin: 2px;
+	text-decoration: none;
+	position: relative;
+	top: -48;
+}
+
+.header-logo {
+    top: 2px !important;
+}
+
+.header-logo img {
+	width: 130px;
+}
+
+.header-buttons-block a:hover {
+	color: #f9a600;
+}
+
+.left-colomn {
+	display: inline-block;
+	float: left;
+	padding-top: 3%;
+	padding-left: 2%;
+	width: 55%;
+}
+.round-border {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	background: #fef34a;
+	padding: 5px;
+	border-radius: 50%;
+	background: radial-gradient(#fef34a, #ff9e00e6);
+	text-shadow: 1px 1px 2px #0000008f, 0 0 1em white;
+	box-shadow: 0px 0px 2px #f2f3d2, 0 0 1em 0px white;
+}
+.round-border p {
+font-size: 20px;
+text-align: center;
+}
+.round-text {
+    display: inline-block;
+    width: 466px;
+    color: grey;
+    text-align: justify;
+}
+.round-text2 {
+	display: inline-block;
+	width: 463px;
+	color: grey;
+	text-align: justify; /* Выравнивание по ширине */
+	height: 300px;
+}
+.round-text2 a:visited {
+	color: #f9a600;
+}
+.round-text2 a {
+text-decoration: none;
+}
+.picture-taxi {
+	width: 95%;
+	float: left;
+	white-space: nowrap;
+}
+.content-box {
+	padding-top: 53%;
+	width: 473px;
+	color: grey;
+	text-align: justify;
+}
+.b1 {
+	color: white;
+	background: black;
+	font-size: 15px;
+	padding: 10px 20px;
+	box-shadow: 0px 1px 5px 2px rgba(255, 236, 7, 0.6);
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.b1:hover {
+	color: #f9a600;
+}
+.right-colomn {
+	display: inline-block;
+	width: 40%;
+	padding-top: 7%;
+	padding-left: 3%;
+	color: grey;
+}
+.right-colomn a:visited {
+	color: #f9a600; 
+}
+.right-colomn a {
+	text-decoration: none;
+}
+
+li {
+	color: #f9a600; /* Цвет маркеров */
+}
+li span {
+	color: grey; /* Цвет текста */
+}
+h3 {
+	color: #efefef;
+}
+
+.picture-map {
+	width: 78%;
+	margin-top: 30%;
+	white-space: nowrap;
+	box-shadow: 0px 0px 2px #f2f3d2, 0 0 1em 0px white;
+}
